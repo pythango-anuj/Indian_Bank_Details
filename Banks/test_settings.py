@@ -1,12 +1,12 @@
 from .settings import *
 
 TEST = {
-'default': {
+    'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'NAME',
-    'USER': 'USER',
-    'PASSWORD': 'PASSWORD',
-    'HOST': 'HOST',
+    'NAME': 'indian_banks',
+    'USER': 'anuj',
+    'PASSWORD': 'anuj@postgres',
+    'HOST': '127.0.0.1',
     'PORT': '',
     }
 }

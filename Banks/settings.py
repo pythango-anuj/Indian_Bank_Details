@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!9c1-ilh#idqst@fs#v$9!(hq5iyx!swd=g86w3716lc&#6$wm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'banks.herokuapp.com']
 
 
 # Application definition
@@ -82,10 +82,10 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'NAME',
-        'USER': 'USER',
-        'PASSWORD': 'PASSWORD',
-        'HOST': 'HOST',
+        'NAME': 'indian_banks',
+        'USER': 'anuj',
+        'PASSWORD': 'anuj@postgres',
+        'HOST': '127.0.0.1',
         'PORT': '',
     }
 }
