@@ -90,3 +90,8 @@ Approximately 4-5 hours are spent on this project for final finish.
     ```
     python manage.py runserver
     ```
+
+# Preview
+
+Here is preview of APIs in this project. Can be accessed with this heroku url.
+    [Indian banks API base url](https://indian-banks-137337d6b26f.herokuapp.com/)
